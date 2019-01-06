@@ -1,7 +1,7 @@
 # car-pooling-surcharge-calculator-service
 ## Description
 
-Retrieves the car details and car price details based on the input carName and FIN respectively
+Retrieves the car price details based on the input noOfDays and FIN
 
 ```java
 PriceDetails getPriceDetails(@RequestParam int noOfDays,
