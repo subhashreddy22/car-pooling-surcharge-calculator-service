@@ -1,0 +1,37 @@
+server:
+  port: 8083
+  
+car:
+  details:
+    url: http://localhost:8082/car/pooling/car/price?FIN={FIN}
+  
+#Surcharges stored in maps for all the countries based on engine power
+lessThan140Map:
+  Germany: 5
+  UK: 10
+  Turkey: 15
+  Portugal: 3
+  
+lessThan200Map:
+  Germany: 16
+  UK: 19
+  Turkey: 21
+  Portugal: 9
+  
+lessThan320Map:
+  Germany: 20
+  UK: 25
+  Turkey: 29
+  Portugal: 17
+  
+lessThan400Map:
+  Germany: 23
+  UK: 29
+  Turkey: 33
+  Portugal: 24
+  
+greaterThan400Map:
+  Germany: 25
+  UK: 33
+  Turkey: 45
+  Portugal: 30
